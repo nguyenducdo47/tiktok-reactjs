@@ -1,0 +1,125 @@
+.search {
+}
+
+.search-result {
+    width: 500px;
+}
+
+.search-title {
+    padding: 5px 12px;
+    color: var(--color-background);
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.search-value {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+
+    &:hover {
+        background-color: var(--color-background);
+        cursor: pointer;
+    }
+}
+
+.search {
+    position: relative;
+    height: var(--search-height);
+    background-color: var(--background-gray-color-06);
+    border-radius: var(--search-border-radius);
+    padding-left: 16px;
+    display: flex;
+    border: 1.5px solid transparent;
+
+    input {
+        flex: 1;
+        height: 100%;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 22px;
+        padding-right: 40px;
+        background-color: transparent;
+        color: var(--color-foreground);
+        caret-color: var(--primary);
+    }
+
+    input:not(:placeholder-shown) ~ .search-btn {
+        color: var(--color-foreground);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: calc(var(--search-height) - 18px);
+        width: 1px;
+        top: 9px;
+        right: var(--search-btn-width);
+        background-color: rgba(22, 24, 35, 0.34);
+    }
+    &:hover {
+        border-color: var(--background-gray-color-20);
+    }
+    &:hover .search-btn {
+        cursor: pointer;
+        background-color: var(--background-gray-color-06);
+        color: var(--color-foreground);
+    }
+}
+.clear,
+.loading {
+    position: absolute;
+    right: calc(var(--search-btn-width) + 16px);
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(22, 24, 35, 0.34);
+}
+
+.loading {
+    animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: translateY(-50%) rotate(0);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+.search-btn {
+    width: var(--search-btn-width);
+    height: 100%;
+    border-top-right-radius: var(--search-border-radius);
+    border-bottom-right-radius: var(--search-border-radius);
+    font-size: 2rem;
+    color: var(--background-gray-color-34);
+    background: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+//Responsive
+@media (860px <= width <= 1000px) {
+    .search-result {
+        width: 380px;
+    }
+}
+@media (770px <= width <= 859px) {
+    .search-result {
+        width: 320px;
+    }
+}
+@media (max-width: 768px) {
+    .search {
+        display: none;
+    }
+    .search-result {
+        display: none;
+    }
+}

@@ -1,0 +1,45 @@
+.menu-item {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color ease-in-out 200ms;
+    &:hover {
+        background-color: var(--background-gray-color-03);
+    }
+    &.active {
+        color: var(--primary);
+        .icon {
+            display: none;
+        }
+        .active-icon {
+            display: flex;
+        }
+    }
+}
+
+.title {
+    padding: 8px;
+}
+
+.icon,
+.active-icon {
+    display: flex;
+}
+
+.active-icon {
+    display: none;
+}
+
+//Responsive
+@media screen and (max-width: 1072px) {
+    .title {
+        display: none;
+    }
+    .menu-item {
+        justify-content: center;
+    }
+}
