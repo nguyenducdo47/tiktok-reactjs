@@ -4,26 +4,20 @@
 - [https://play-music-zingmp3.vercel.app/](https://tiktok-reactjs-8hzo.vercel.app/)]
 
 ## Main technology
-- [react](https://github.com/facebook/react)
+- [ReactJS](https://github.com/facebook/react)
 - [API F8-fullstack](https://tiktok.fullstack.edu.vn/api/)
 
 
 ## Install App
 - Clone the project
 ```shell
-$ git clone https://play-music-zingmp3.vercel.app/
+$ git clone https://github.com/nguyenducdo47/tiktok-reactjs.git
 ```
 - Install package dependencies
 ```shell
 $ yarn install # npm install
 ```
-- Copy .env.example to .env
-```env
-# Port Open App Reactjs
-PORT=4200
-REACT_APP_BASE_URL_API="http://localhost:3000"
-REACT_APP_PATH_API="/api"
-```
+
 - Run app
 ```shell
 $ yarn start # npm run start
