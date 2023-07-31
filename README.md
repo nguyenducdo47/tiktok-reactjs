@@ -24,5 +24,9 @@ $ yarn start # npm run start
 ```
 
 ## Screenshot
-https://www.facebook.com/messenger_media/?attachment_id=853604802427826&message_id=mid.%24cAAAB_EkihXOP3tA3W2JrYrjwTonr&thread_id=100089952252173
+![364614206_853604805761159_289037126851733120_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/9475bdb8-f9ad-4830-a5c0-95196933f53c)
+![363980589_974837600523105_5024087342412743067_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/5c9a16e7-9629-4265-9691-926abec70971)
+![359568477_1749352548837543_6077466902681391878_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/281933e6-aa0b-408d-8181-0686662931a4)
+![359785191_277805901530889_1023368139599982588_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/6021e5ab-544a-453e-8208-ca0c4df1e28a)
+
 
