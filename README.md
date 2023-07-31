@@ -24,10 +24,14 @@ $ yarn start # npm run start
 ```
 
 ## Screenshot
-![Screenshot from 2022-06-25 14-09-25](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/9475bdb8-f9ad-4830-a5c0-95196933f53c)
-![363980589_974837600523105_5024087342412743067_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/5c9a16e7-9629-4265-9691-926abec70971)
-![359568477_1749352548837543_6077466902681391878_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/281933e6-aa0b-408d-8181-0686662931a4)
-![359785191_277805901530889_1023368139599982588_n](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/6021e5ab-544a-453e-8208-ca0c4df1e28a)
-![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/ebc30a86-feea-4058-a7e6-85d875ec4818)
+
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/dd4ccf38-0ff3-4768-b2f2-3263094f9222)
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/d763e4bc-fb00-4ab2-b2c9-0019c44e5bd6)
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/2765d31f-f79d-4860-8de7-dab0f53f243b)
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/3d243d70-7d01-432c-b2fe-7f989719a3e0)
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/2e0a7328-60dc-408c-9fca-792149274291)
+![image](https://github.com/nguyenducdo47/tiktok-reactjs/assets/90445289/3f3c41a5-e6a9-40f3-86ce-ff56ee13bf75)
+
+
 
 
