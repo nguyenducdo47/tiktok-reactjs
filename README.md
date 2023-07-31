@@ -1,7 +1,7 @@
 # Tiktok UI ReactJS, SCSS
 
 ## Live Demo
-- [https://play-music-zingmp3.vercel.app/](https://tiktok-reactjs-8hzo.vercel.app/)]
+- [https://tiktok-reactjs-8hzo.vercel.app/](https://tiktok-reactjs-8hzo.vercel.app/)]
 
 ## Main technology
 - [ReactJS](https://github.com/facebook/react)
